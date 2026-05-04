@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-moti-orange: #ff7816;
+  --color-moti-black: #050505;
+  --color-moti-gray: #a3a3a3;
+  --font-sans: Pretendard, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: white;
+  font-family: Pretendard, system-ui, sans-serif;
+}
