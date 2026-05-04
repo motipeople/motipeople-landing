@@ -22,7 +22,7 @@ export default function HeroSection() {
           </nav>
 
           <button className='rounded-full bg-[#2D2D2D] px-5 py-2 text-xs font-bold text-white transition hover:bg-black'>
-            사진등록하기
+            사전등록하기
           </button>
         </div>
       </header>

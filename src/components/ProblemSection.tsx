@@ -10,7 +10,7 @@ const problemCards = [
     image: '/assets/problem-02.png',
   },
   {
-    title: '인증이 부담스러워\n운동을 할 수 없는 날에도 밀리게 돼요',
+    title: '일정이 많을수록\n운동은 늘 우선순위에서 밀리게 돼요',
     image: '/assets/problem-03.png',
   },
 ];

@@ -14,7 +14,7 @@ export default function CTASection() {
       </p>
 
       <button className='mt-8 rounded-full bg-white px-7 py-3 text-sm font-bold text-moti-orange transition hover:bg-orange-50'>
-        앱 사용해보기 →
+        앱 사전등록하기 →
       </button>
     </section>
   );

@@ -32,8 +32,6 @@ export default function FeatureSection() {
     <section id='features' className='bg-white px-5 py-24 text-[#2D2D2D] md:py-32'>
       <div className='mx-auto max-w-6xl text-center'>
         <FadeIn>
-          <span className='text-sm font-bold text-neutral-500'>motipeople routine system</span>
-
           <h2 className='mt-5 text-[32px] font-extrabold leading-tight tracking-[-0.04em] md:text-[52px]'>
             완벽함보다 꾸준함을 위한 설계
           </h2>
