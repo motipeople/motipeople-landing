@@ -24,7 +24,7 @@ export default function ProblemSection() {
 
           <p className='mx-auto mt-8 max-w-xl text-sm leading-7 text-neutral-300 md:text-base'>
             야근, 회식, 피로... 우리의 일상은 변수가 너무 많습니다.
-            <br className='hidden md:block' />
+            <br />
             의지가 약해서가 아니라, 끊겼을 때 다시 돌아올 구조가 없었을 뿐이에요.
           </p>
         </FadeIn>

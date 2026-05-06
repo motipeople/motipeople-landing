@@ -36,7 +36,7 @@ export default function HeroSection() {
           </h1>
 
           <p className='mt-6 text-sm leading-7 text-neutral-600 md:text-base'>
-            하루쯤 놓쳐도 괜찮아요. 다시 돌아올 수 있도록 돕는
+            하루쯤 놓쳐도 괜찮아요. <br /> 다시 돌아올 수 있도록 돕는
             <br className='hidden md:block' />
             건강 루틴 서비스, motipeople.
           </p>
