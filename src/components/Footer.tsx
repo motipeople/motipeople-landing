@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
 
         <p className='mt-5 text-sm leading-6 text-white'>
-          E-mail: example@gmail.com
+          E-mail: motipeople.official@gmail.com
           <br />© 2026 motipeople. All rights reserved.
         </p>
       </div>
