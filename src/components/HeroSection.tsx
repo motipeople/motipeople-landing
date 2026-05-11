@@ -128,10 +128,10 @@ export default function HeroSection() {
               <a href='#features' onClick={handleCloseMobileMenu} className='text-[#2D2D2D]'>
                 모티피플 소개
               </a>
-              <a href='#offline' onClick={handleCloseMobileMenu}>
+              <a href='#offline' onClick={handleCloseMobileMenu} className='text-[#2D2D2D]'>
                 오프라인 밋업
               </a>
-              <a href='#reviews' onClick={handleCloseMobileMenu}>
+              <a href='#reviews' onClick={handleCloseMobileMenu} className='text-[#2D2D2D]'>
                 사용자 후기
               </a>
             </nav>
