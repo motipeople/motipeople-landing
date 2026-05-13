@@ -9,7 +9,7 @@ type MobileFloatingCTAProps = {
 
 export default function MobileFloatingCTA({
   label = '사전등록하기 →',
-  href = '#pre-register',
+  href = 'https://forms.gle/ZoqUbpnSYLJVn6qM9',
   onClick,
 }: MobileFloatingCTAProps) {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,12 +33,15 @@ export default function MobileFloatingCTA({
       return;
     }
 
-    if (href) {
-      const target = document.querySelector(href);
+    if (href.startsWith('http')) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+      return;
+    }
 
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
-      }
+    const target = document.querySelector(href);
+
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
     }
   };
 

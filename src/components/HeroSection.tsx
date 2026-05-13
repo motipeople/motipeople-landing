@@ -4,6 +4,8 @@ import { AnimatePresence, motion } from 'framer-motion';
 import FadeIn from '@/components/common/FadeIn';
 import MobileFloatingCTA from '@/components/common/MobileFloatingCTA';
 
+const PRE_REGISTER_URL = 'https://forms.gle/ZoqUbpnSYLJVn6qM9';
+
 export default function HeroSection() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -12,11 +14,7 @@ export default function HeroSection() {
   };
 
   const handleClickPreRegister = () => {
-    const target = document.querySelector('#pre-register');
-
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
-    }
+    window.open(PRE_REGISTER_URL, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -40,13 +38,14 @@ export default function HeroSection() {
               </a>
             </nav>
 
-            <button
-              type='button'
-              onClick={handleClickPreRegister}
+            <a
+              href={PRE_REGISTER_URL}
+              target='_blank'
+              rel='noopener noreferrer'
               className='hidden rounded-full bg-[#2D2D2D] px-5 py-2 text-xs font-bold text-white transition hover:bg-black md:block'
             >
               사전등록하기
-            </button>
+            </a>
 
             <button
               type='button'
@@ -78,13 +77,14 @@ export default function HeroSection() {
             </p>
 
             <div className='mt-8 flex items-center justify-center gap-3'>
-              <button
-                type='button'
-                onClick={handleClickPreRegister}
+              <a
+                href={PRE_REGISTER_URL}
+                target='_blank'
+                rel='noopener noreferrer'
                 className='rounded-full bg-[#2D2D2D] px-6 py-3 text-sm font-bold text-white transition hover:bg-black'
               >
                 앱 사전등록하기 →
-              </button>
+              </a>
 
               <a
                 href='#offline'

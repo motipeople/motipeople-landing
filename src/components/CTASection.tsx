@@ -13,9 +13,14 @@ export default function CTASection() {
         motipeople과 가장 쉽게 시작해보세요.
       </p>
 
-      <button className='mt-8 rounded-full bg-white px-7 py-3 text-sm font-bold text-moti-orange transition hover:bg-orange-50'>
+      <a
+        href='https://forms.gle/ZoqUbpnSYLJVn6qM9'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='mt-8 inline-block rounded-full bg-white px-7 py-3 text-sm font-bold text-moti-orange transition hover:bg-orange-50'
+      >
         앱 사전등록하기 →
-      </button>
+      </a>
     </section>
   );
 }
